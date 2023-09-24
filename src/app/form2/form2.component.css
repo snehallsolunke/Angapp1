@@ -1,0 +1,41 @@
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched{
+    border: 1px solid red;
+    box-shadow: 0 0 13px #ff000021;
+}
+.col-md-6{
+    /* background-image: url("https://images3.alphacoders.com/823/82317.jpg"); */
+    /* background-image: url("src\assets\Doggo1.jpeg"); */
+    background-image: url("src\assets\Doggo2.jpeg");
+
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.text-danger{
+    font-weight: 200;
+    color: aliceblue;
+}
+h2{
+    color: aqua;
+}
+button{
+    text-align: center;
+    margin-left: 270px;
+}
+label{
+    color:rgb(251, 250, 250);
+    
+}
+
+
+/* input, select{
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.5); 
+  } */
+input,select{
+    border:1px solid #ccc;
+    background-color: aqua;
+}
+

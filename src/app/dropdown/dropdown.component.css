@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+img {
+    border-radius: 40%;
+    padding-top: 3px;
+}
+h1{
+    
+    text-shadow: 2px 1px rgb(212, 95, 16)
+
+}
+h3{
+    text-shadow: 2px 1px rgb(46, 230, 17)
+}

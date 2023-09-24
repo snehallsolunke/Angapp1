@@ -1,0 +1,19 @@
+<!-- <p>username works!</p> -->
+<h1>{{title}}</h1>
+<img [src]="imageUrl" alt="">
+<div>
+    <label> Rocket Name : </label>
+    <input type="text" placeholder="Rocket Name" [(ngModel)]="username">
+    <!-- [(  )] Two way data Binding   -->
+</div>
+
+<p>
+     <!-- string interpolation -->
+    {{username}}  
+   
+</p>
+<!-- <button type="button" > Launch </button> --> 
+
+<!-- <button [disabled]="username =='' " > Launch </button> -->
+
+<button [disabled]="username =='' " (click)="Clear()" > Launch </button>

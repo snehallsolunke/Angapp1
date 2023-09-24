@@ -1,0 +1,18 @@
+<!-- <p>simple-form works!</p> -->
+<div class="container" >
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-left rounded shadow py-10">
+            <div class="row justify-content-center"> LogIn Form</div> 
+            <form (ngSubmit)="onSubmit(myForm)" #myForm="ngForm"> 
+                <div class="form-group">
+                    <label for="username">UserName</label>
+                    <input type="text" class="form-control" id="userName" name="userName" ngModel placeholder="Enter your username">           </div>
+                <div class="form-group">
+                    <label for="email"> Email</label>
+                    <input type="text" class="form-control" id="email" name="email" ngMoel placeholder="Enter your E-mail address">  
+                </div>
+                <button type="submit" class="btn btn-success my-3" >Submit</button>
+            </form>
+        </div> 
+    </div>
+</div>

@@ -1,0 +1,52 @@
+
+
+.background-image-container {
+    background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm222-mind-16_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=1c53e59a7b21c1ffee85bc36a3837392') no-repeat center/cover;
+    /* background: url('') no-repeat center/cover; */
+    width: 100vw;
+    height: 100vh;
+  }
+
+.form1 {
+  margin: 170px 0 0 200px;
+}
+
+.userdetails {
+  margin: 0 25px;
+  width: 30%; 
+}
+
+.accountdetails {
+  margin: 0 25px;
+  width: 30%; 
+}
+input, select {
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0); 
+}
+
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched {
+  border: 1px solid red;
+  box-shadow: 0 0 13px #ff000021;
+}
+
+/* .clickbtn{
+  margin-left: 800px;
+}  */
+
+
+
+ input.form-control,
+ select.form-control {
+  border: none; 
+  border-bottom: 1px solid #000;
+  outline: none;
+  
+}
+
+table, td,tr{
+  border: 1px solid;
+  
+  background-color: rgb(158, 255, 223);
+}

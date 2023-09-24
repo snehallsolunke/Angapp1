@@ -1,0 +1,41 @@
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched {
+  border: 1px solid red;
+  box-shadow: 0 0 13px #ff000021;
+}
+
+.py-20 {
+    background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm222-mind-16_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=1c53e59a7b21c1ffee85bc36a3837392') no-repeat center/cover;
+   
+    /* background: url('') no-repeat center/cover; */
+    
+  }
+.col-md-12{
+    margin-bottom: 20px;
+}
+
+.text-danger {
+  margin-top: 5px;
+}
+
+.removebtn{
+    margin-left: 10px;
+    height: 45px;
+    width: 40px;
+}
+h4{
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 1px,1px coral;
+    color:rgb(17, 17, 16);  
+}
+
+.a1{
+    background-color: aqua;
+  
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.a2{
+    background-color: rgb(11, 170, 117);
+}

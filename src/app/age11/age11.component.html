@@ -1,0 +1,21 @@
+<p>age11 works!</p>
+<div class="box">
+    <div class="container mt-4 py-3">
+        <h2 class="text-center">Age Calculator</h2>
+        <div class="form-group">
+        <label for="dateOfBirth"><strong>Date of Birth:</strong></label>
+        <input class="form-control mt-2" type="date" id="dateOfBirth" [(ngModel)]="dateOfBirth">
+        </div>
+        <button type="submit" class="btn btn-primary mt-3 cal"  style="margin-left:130px;" (click)="calculateAge()">Submit</button>
+        <button type="button" class="btn btn-secondary mt-3 clr" style="margin-left: 40px;" (click)="resetForm()">Reset</button>
+        <div class="mt-4" *ngIf="age">
+        <p class="text-center"><strong> Doggo's age is :{{ age.years }} Years  {{ age.months }} Months {{ age.days }} Days</strong></p>
+        <!-- <p style="display: inline;"><strong>Years:</strong> {{ age.years }}</p>
+        <p style="display: inline;" class="months"><strong>Months:</strong> {{ age.months }}</p>
+        <p style="display: inline;" class="days"><strong>Days:</strong> {{ age.days }}</p> -->
+        <!-- <p class="years"><strong>Years:</strong> {{ age.years }} </p>
+        <p  class="months"><strong>Months:</strong> {{ age.months }}</p>
+        <p class="days"><strong>Days:</strong> {{ age.days }}</p> -->
+        </div>
+    </div>
+</div>

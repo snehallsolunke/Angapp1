@@ -1,0 +1,45 @@
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched {
+  border: 1px solid red;
+  box-shadow: 0 0 13px #ff000021;
+}
+
+.py-20 {
+    background: url('https://images.pexels.com/photos/933498/pexels-photo-933498.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 ') no-repeat center/cover;
+   
+    /* background: url('') no-repeat center/cover; */
+    
+  }
+.col-md-12{
+    margin-bottom: 20px;
+}
+
+.text-danger {
+  margin-top: 5px;
+}
+
+.removebtn{
+    margin-left: 10px;
+    height: 45px;
+    width: 40px;
+}
+h4{
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 1px,1px coral;
+    color:rgb(17, 17, 16);  
+}
+
+.a1{
+    background-color: aqua;
+  
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.a2{
+    background-color: rgb(11, 170, 117);
+}
+input, select, option {
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255,255,0.5);
+}
