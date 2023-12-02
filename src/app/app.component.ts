@@ -12,8 +12,8 @@ export class AppComponent {
   // title = 'AngularApp'
 
   constructor(private user:UsersService){
-    this.user.getData().subscribe(data=>{
-      console.warn(data);
-    })
+    // this.user.getData().subscribe(data=>{
+    //   console.warn(data);
+    // })
   }
 }

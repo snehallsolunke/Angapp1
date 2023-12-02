@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NgifComponent implements OnInit {
 
-  permission:boolean=false;
-  else{
-    return true;
-  }
-  show: boolean =true;
+  // permission:boolean=false;
+  // else{
+  //   return true;
+  // }
+  // show: boolean =true;
   constructor() { }
 
   ngOnInit() {

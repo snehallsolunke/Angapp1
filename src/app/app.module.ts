@@ -23,7 +23,10 @@ import { NetflixReactiveComponent } from './netflix-reactive/netflix-reactive.co
 import { Project1Component } from './project1/project1.component';
 
 import{HttpClientModule} from '@angular/common/http';
-import { HookComponent } from './hook/hook.component'
+import { HookComponent } from './hook/hook.component';
+import { ChatUiComponent } from './chat-ui/chat-ui.component';
+import { PChildComponent } from './p-child/p-child.component';
+import { PParentComponent } from './p-parent/p-parent.component'
 
 @NgModule({
   declarations: [
@@ -45,7 +48,10 @@ import { HookComponent } from './hook/hook.component'
     Age22Component,
     NetflixReactiveComponent,
     Project1Component,
-    HookComponent
+    HookComponent,
+    ChatUiComponent,
+    PChildComponent,
+    PParentComponent
   ],
   imports: [
     BrowserModule,

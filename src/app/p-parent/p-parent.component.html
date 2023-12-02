@@ -1,0 +1,9 @@
+<p>p-parent works!</p>
+
+<!-- <app-p-child [item]="Name" >  </app-p-child> -->
+<hr>
+<app-p-child (itemEvent)="add($event)" >  </app-p-child>
+
+<ul>
+    <li *ngFor="let item of items">{{item}}</li>
+</ul>

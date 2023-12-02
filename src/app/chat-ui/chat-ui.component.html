@@ -1,0 +1,20 @@
+<div class="a">
+    <div>
+<p>{{s}}</p>
+
+<img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=" alt="image">
+<button [disabled]="p">Property Binding</button>
+</div>
+<div>
+<img [src]="img" alt="">
+
+<button (click)="event()">EventBinding</button>
+</div>
+<div>
+    <p>Two Way Data Bindig</p>
+    <input placeholder="Two way data binding" [(ngModel)]="twoWay" type="text">
+    <button  type="submit"  (click)="binding()">submit</button>
+</div>
+
+
+</div>
